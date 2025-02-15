@@ -110,27 +110,16 @@ atl=$(echo "$PRICE_DATA" | jq -r '.[0].atl')
 
 
 echo -e "${BLUE}========================================"
-
 echo -e "            PRICE REPORT"
-
 echo -e "========================================${NC}"
-
 echo -e "${GREEN}Current price of $coin: $btc_price USD${NC}"
-
 echo -e "${GREEN}Market Cap: $market_cap USD${NC}"
-
 echo -e "${GREEN}24h Trading Volume: $volume USD${NC}"
-
 echo -e "${GREEN}Price Change (24h): $price_change%${NC}"
-
 echo -e "${GREEN}24h High: $high_24h USD${NC}"
-
 echo -e "${GREEN}24h Low: $low_24h USD${NC}"
-
 echo -e "${GREEN}All-Time High (ATH): $ath USD${NC}"
-
 echo -e "${GREEN}All-Time Low (ATL): $atl USD${NC}"
-
 echo -e "${BLUE}========================================${NC}"
 
 
