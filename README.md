@@ -96,6 +96,12 @@ The script accepts the following command-line argument:
 ./crypto.sh <coin_name>
 ```
 
+## Sample Output
+
+![Screenshot of Crypto Fetcher Bash](https://github.com/irfanbroo/Crypto_Fetcher_Bash/blob/main/dc1.jpg)
+
+
+
 ### Example Usage
 
 To fetch real-time data for **Bitcoin**:
